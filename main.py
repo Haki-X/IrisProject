@@ -62,6 +62,7 @@ if predict :
     prediction = result["prediction"][0]
     prob = result["prob"][0][prediction]
 
-    st.write(f"Your iris species is **{prob:.0%}{label}**")
+    st.write(f"Your iris species is **{prob:.0%} {label}**")
+
 
 
